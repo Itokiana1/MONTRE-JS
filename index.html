@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        .montre {
+            width: fit-content;
+            height: fit-content;
+            padding: 20px;
+            font-size: 50px;
+            font-weight: bold;
+            margin-left: 35%;
+            margin-top: 30px;
+        }
+
+        .one {
+            padding: 20px;
+            background-color: green;
+            border-radius: 20px;
+        }
+
+        .two {
+            padding: 20px;
+            background-color: red;
+            border-radius: 20px;
+        }
+
+        .three {
+            padding: 20px;
+            background-color: blue;
+            border-radius: 20px;
+        }
+
+        .pointOne {
+            color: brown;
+            animation-duration: 1s;
+            animation-name: clignoter;
+            animation-iteration-count: infinite;
+            transition: none;
+        }
+
+        @keyframes clignoter {
+            0% {
+                opacity: 1;
+            }
+
+            40% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .point {
+            color: brown;
+            animation-duration: 1s;
+            animation-name: clignoter;
+            animation-iteration-count: infinite;
+            transition: none;
+        }
+
+        @keyframes clignoter {
+            0% {
+                opacity: 1;
+            }
+
+            40% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<body onload=showDate();>
+
+    <script src="montre.js"></script>
+</body>
+
+</html>
