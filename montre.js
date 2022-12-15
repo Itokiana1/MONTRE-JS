@@ -41,9 +41,6 @@ function showDate() {
     if (s < 10) { s = '0' + s; }
 
     var deuxPoint = ":";
-    
-    // var andro = h + deuxP + m + deuxP + s;
-    // newD.textContent = andro;
 
     newS.textContent = h ;
     deuN.textContent = deuxPoint;
